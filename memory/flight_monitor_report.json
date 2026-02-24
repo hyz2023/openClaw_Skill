@@ -1,0 +1,164 @@
+{
+  "origin": "Manila",
+  "destination": "Guangzhou",
+  "max_price_cny": 2500,
+  "outbound": {
+    "route": "Manila to Guangzhou",
+    "status": "success",
+    "total_results": 20,
+    "price_related_results": 5,
+    "results": [
+      {
+        "title": "Manila - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Manila",
+        "snippet": "Manila, [a] officially the City of Manila, [b] is the capital and second-most populous city of the Philippines after Quezon City. According to the 2024 census, it has a population of 1,902,590 …",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Cheap Flights from Manila Ninoy Aquino to Guangzhou - Skyscanner",
+        "url": "https://www.skyscanner.com.au/routes/mnl/can/manila-ninoy-aquino-to-guangzhou.html",
+        "snippet": "Flight deals from Manila Ninoy Aquino to Guangzhou ; $86 per passenger.Departing Mon, 26 Oct. · From $86, select. ; $86 per passenger.Departing Tue, 28 Jul. · From ...",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "Manila | Philippines, Luzon, Population, Map, Climate, & Facts",
+        "url": "https://www.britannica.com/place/Manila",
+        "snippet": "5 days ago · Manila, capital and chief city of the Philippines. Manila has been the principal city of the Philippines for four centuries and is the center of its industrial development as well as the ",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Find Cheap Flights from Manila to Guangzhou (MNL - CAN)",
+        "url": "https://www.google.com/travel/flights/flights-from-manila-to-guangzhou.html",
+        "snippet": "China Southern. Nonstop. from $181. Typical price: $235–390 · Cebu Pacific. Nonstop. from $140 · Cathay Pacific. from $268. Typical price: $225–360 · Air China. 32 ...",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "Manila, Philippines: All You Must Know Before You Go (2026 ...",
+        "url": "https://www.tripadvisor.com/Tourism-g298573-Manila_Metro_Manila_Luzon-Vacations.html",
+        "snippet": "Manila Tourism: Tripadvisor has 94,039 reviews of Manila Hotels, Attractions, and Restaurants making it your best Manila resource.",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Cheap Flights from Manila to Guangzhou (MNL to CAN) ...",
+        "url": "https://au.trip.com/flights/manila-to-guangzhou/airfares-mnl-can/",
+        "snippet": "Based on Trip.com's data from the latest 7 days, one-way direct flights start at AU$ 95, and round-trip direct tickets start at AU$ 203. Displayed flight fares ...",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "Manila Travel Guide: Everything You Need to Know About | Guide …",
+        "url": "https://guidetothephilippines.ph/articles/ultimate-guides/manila-travel-guide",
+        "snippet": "Jul 2, 2025 · Visit the bustling capital region of the Philippines—Manila! Whether you’re flying in for a quick city break or planning a deeper cultural journey, Manila offers an exciting mix of …",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Cheap flights from Manila to Guangzhou ...",
+        "url": "https://www.momondo.com/flights/manila/guangzhou",
+        "snippet": "The cheapest day to depart on your flight to Guangzhou is on a Saturday when prices can be found for as low as $304. This is often the case ...",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "21 AMAZING Things to Do in Manila (Written By a Local)",
+        "url": "https://www.taraletsanywhere.com/things-to-do-in-manila/",
+        "snippet": "Oct 30, 2025 · Planning to visit Manila, Philippines? Here we've compiled the best things to do & places to see in Manila! Including additional tips, where to stay, etc.",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Find cheap flights from Manila to Guangzhou with Cheapflights",
+        "url": "https://www.cheapflights.com/flights-to-guangzhou/manila/",
+        "snippet": "Manila to Guangzhou flights typically cost between $192 and $324 in April. The cheapest round-trip price found within the last 3 days was ...",
+        "source": "google",
+        "has_price": true
+      }
+    ],
+    "timestamp": "2026-02-24T17:14:47.320367"
+  },
+  "return": {
+    "route": "Guangzhou to Manila",
+    "status": "success",
+    "total_results": 20,
+    "price_related_results": 5,
+    "results": [
+      {
+        "title": "Guangzhou - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Guangzhou",
+        "snippet": "Guangzhou[a] is the capital and largest city of the Guangdong province of southern China. [8] Located on the Pearl River, about 120 kilometres (75 mi) northwest of Hong Kong and 145 kilometres (90 mi)",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Cheap Flights from Guangzhou to Manila Ninoy Aquino | Skyscanner",
+        "url": "https://www.skyscanner.com.au/routes/can/mnl/guangzhou-to-manila-ninoy-aquino.html",
+        "snippet": "Find the cheapest month to fly from Guangzhou to Manila Ninoy Aquino ; Feb. from $142 ; Mar. from $143 ; Apr. from $140 ; May. from $136 ; Jun. from $137.",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "Guangzhou | History, Population, Map, Climate, & Facts | Britannica",
+        "url": "https://www.britannica.com/place/Guangzhou",
+        "snippet": "6 days ago · Guangzhou has served as a doorway for foreign influence since the 3rd century CE and was the first Chinese port to be regularly visited by European traders, who called it Canton.",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Find Cheap Flights from Guangzhou to Manila (CAN - MNL)",
+        "url": "https://www.google.com/travel/flights/flights-from-guangzhou-to-manila.html",
+        "snippet": "China Southern. Nonstop. from $241 · Cebu Pacific. Nonstop. from $168 · Cathay Pacific. from $258. Typical price: $235–375 · Air China. 31 weekly connecting ...",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "Guangzhou Trip Planning 2026: Best Time, Attractions & Itinerary",
+        "url": "https://www.chinahighlights.com/guangzhou/",
+        "snippet": "Feb 10, 2026 · Guangzhou is a renowned shopping paradise, especially for clothing and bags. As Guangzhou is the source of China's textile products, with most clothing and bags distributed …",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Cheap Flights from Guangzhou (CAN) to Manila (MNL)",
+        "url": "https://www.expedia.com.au/lp/flights/can/mnl/guangzhou-to-manila",
+        "snippet": "Find cheap flights from Guangzhou to Manila. From the great flight deals with prices currently ranging from AU$297 to AU$394, you can choose to see the cheapest ...",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "THE 15 BEST Things to Do in Guangzhou (2026) - Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g298555-Activities-Guangzhou_Guangdong.html",
+        "snippet": "Things to Do in Guangzhou, China: See Tripadvisor's 206,570 traveler reviews and photos of Guangzhou tourist attractions. Find what to do today, this weekend, or in March. We have reviews of …",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Cheap Flights from Guangzhou to Manila (CAN to MNL) ...",
+        "url": "https://au.trip.com/flights/guangzhou-to-manila/airfares-can-mnl/",
+        "snippet": "Be flexible with your travel dates to get the cheapest flight deal. Now the cheapest flight deal is on Tue, Apr 14, with one-way flights priced at just AU$ 140.",
+        "source": "google",
+        "has_price": true
+      },
+      {
+        "title": "Guangzhou Facts & History, Top 10 Facts That You Should Know",
+        "url": "https://www.travelchinaguide.com/cityguides/guangdong/guangzhou/",
+        "snippet": "Aug 6, 2025 · Guangzhou is China's third largest city and a world trade center, well known for the semiannual Canton Fair, Cantonese food and rich historical relics.",
+        "source": "bing",
+        "has_price": false
+      },
+      {
+        "title": "Guangzhou to Philippines Flights - Skyscanner",
+        "url": "https://www.skyscanner.com.au/routes/can/ph/guangzhou-to-philippines.html",
+        "snippet": "Cheapest flights to Philippines from Guangzhou · Guangzhou to Manila from $135 · Guangzhou to Cebu from $184 · Guangzhou to Puerto Princesa from $199 · Guangzhou to ...",
+        "source": "google",
+        "has_price": true
+      }
+    ],
+    "timestamp": "2026-02-24T17:14:48.718055"
+  },
+  "check_time": "2026-02-24T17:14:48.718264"
+}
