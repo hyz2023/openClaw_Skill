@@ -1,0 +1,23 @@
+{
+  "route": "Manila (MNL) ↔ Guangzhou (CAN)",
+  "requirements": {
+    "outbound": "Friday afternoon/evening (MNL → CAN)",
+    "return": "Sunday (CAN → MNL)",
+    "maxPriceCNY": 2500,
+    "travelPeriod": "Next 8 weeks (weekend trips)"
+  },
+  "lastCheck": "2026-02-24T15:10:00Z",
+  "notifiedDeals": [],
+  "airlines": [
+    "Cebu Pacific",
+    "China Southern",
+    "Philippine Airlines"
+  ],
+  "searchUrls": [
+    "https://www.google.com/travel/flights?q=Flights%20to%20CAN%20from%20MNL",
+    "https://www.skyscanner.com/routes/mnl/can/manila-ninoy-aquino-to-guangzhou.html",
+    "https://www.expedia.com/lp/flights/mnl/can/manila-to-guangzhou",
+    "https://www.kayak.com/flight-routes/Manila-Ninoy-Aquino-Intl-MNL/Guangzhou-Baiyun-CAN"
+  ],
+  "notes": "Cebu Pacific 有直飞航班，每周 4 班。往返低价可至$199 USD (约 1450 CNY)，但需关注周末航班 availability。"
+}
