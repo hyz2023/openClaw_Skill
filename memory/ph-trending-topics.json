@@ -1,0 +1,254 @@
+{
+  "report_date": "2026-02-25 15:15 UTC",
+  "week_range": "2026-02-23 to 2026-03-01",
+  "total_topics": 20,
+  "topics": [
+    {
+      "rank": 1,
+      "topic": "Tropical Depression Basyang",
+      "category": "天气/公共安全",
+      "description": "热带低压 Basyang 路径、影响区域、安全提示",
+      "engagement": "664,293 ES",
+      "platforms": [
+        "Facebook",
+        "Twitter",
+        "News"
+      ]
+    },
+    {
+      "rank": 2,
+      "topic": "Pinoy Big Brother (PBB) Celebrity Collab",
+      "category": "娱乐",
+      "description": "PBB 名人合作版直播、选手动态、Anne Curtis 主持",
+      "engagement": "283,037 ES",
+      "platforms": [
+        "Facebook",
+        "Twitter",
+        "YouTube"
+      ]
+    },
+    {
+      "rank": 3,
+      "topic": "PBA Finals",
+      "category": "体育",
+      "description": "菲律宾篮球协会总决赛",
+      "engagement": "243,019 ES",
+      "platforms": [
+        "Facebook",
+        "Twitter"
+      ]
+    },
+    {
+      "rank": 4,
+      "topic": "Premier Volleyball League (PVL)",
+      "category": "体育",
+      "description": "菲律宾排球联赛更新",
+      "engagement": "纳入体育类总计",
+      "platforms": [
+        "Facebook",
+        "Twitter"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic": "Anne Curtis Birthday & It's Showtime",
+      "category": "娱乐/名人",
+      "description": "Anne Curtis 生日倒计时、节目亮相、电影 The Loved One",
+      "engagement": "50,132 ES",
+      "platforms": [
+        "Instagram",
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 6,
+      "topic": "Grammy Awards 2026",
+      "category": "国际娱乐",
+      "description": "格莱美颁奖典礼、Bad Bunny, Bruno Mars, Kendrick Lamar 等",
+      "engagement": "73,693 ES",
+      "platforms": [
+        "Twitter",
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 7,
+      "topic": "ICC Duterte Hearing",
+      "category": "政治",
+      "description": "国际刑事法院杜特尔特听证会",
+      "engagement": "高",
+      "platforms": [
+        "Twitter",
+        "News"
+      ]
+    },
+    {
+      "rank": 8,
+      "topic": "2028 Elections Opposition Strategy",
+      "category": "政治",
+      "description": "2028 年大选反对派策略讨论",
+      "engagement": "中高",
+      "platforms": [
+        "Twitter",
+        "News"
+      ]
+    },
+    {
+      "rank": 9,
+      "topic": "EDSA Revolution Anniversary",
+      "category": "历史/政治",
+      "description": "EDSA 革命纪念、青年一代对历史的认知",
+      "engagement": "中",
+      "platforms": [
+        "Facebook",
+        "News"
+      ]
+    },
+    {
+      "rank": 10,
+      "topic": "Mayon Volcano Eruption (Day 51)",
+      "category": "自然灾害",
+      "description": "马荣火山持续喷发第 51 天、熔岩流、岩石滚落",
+      "engagement": "高",
+      "platforms": [
+        "Facebook",
+        "News",
+        "YouTube"
+      ]
+    },
+    {
+      "rank": 11,
+      "topic": "Chinese New Year Celebrations",
+      "category": "文化/节日",
+      "description": "春节庆祝活动、明星穿搭",
+      "engagement": "中",
+      "platforms": [
+        "Instagram",
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 12,
+      "topic": "Lotto Jackpot Results",
+      "category": "社会",
+      "description": "彩票开奖结果、无人中头奖",
+      "engagement": "中",
+      "platforms": [
+        "Facebook",
+        "News"
+      ]
+    },
+    {
+      "rank": 13,
+      "topic": "Pope Leo Africa Tour 2026",
+      "category": "宗教/国际",
+      "description": "教皇 Leo 非洲四国访问",
+      "engagement": "中",
+      "platforms": [
+        "News",
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 14,
+      "topic": "Master Plumbers Licensure Exam Topnotcher",
+      "category": "教育",
+      "description": "CIT 大学毕业生考取水管工执照考试第一名",
+      "engagement": "低中",
+      "platforms": [
+        "News",
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 15,
+      "topic": "Vietnamese Pho Restaurant Manila",
+      "category": "美食",
+      "description": "马尼拉新开正宗越南河粉餐厅",
+      "engagement": "低中",
+      "platforms": [
+        "Instagram",
+        "Facebook"
+      ]
+    },
+    {
+      "rank": 16,
+      "topic": "2025-2026 Anti-Corruption Protests",
+      "category": "政治/社会",
+      "description": "反腐抗议活动、政治家族争议",
+      "engagement": "高",
+      "platforms": [
+        "Twitter",
+        "Facebook",
+        "News"
+      ]
+    },
+    {
+      "rank": 17,
+      "topic": "PlayTime Entertainment Miss Universe Partnership",
+      "category": "娱乐/商业",
+      "description": "PlayTime 与环球小姐菲律宾长期合作",
+      "engagement": "中",
+      "platforms": [
+        "Facebook",
+        "News"
+      ]
+    },
+    {
+      "rank": 18,
+      "topic": "Mobile Legends Updates",
+      "category": "游戏",
+      "description": "MLBB 游戏更新、电竞赛事",
+      "engagement": "高",
+      "platforms": [
+        "Facebook",
+        "YouTube"
+      ]
+    },
+    {
+      "rank": 19,
+      "topic": "K-Drama Philippine Adaptations",
+      "category": "娱乐",
+      "description": "韩剧菲律宾翻拍版讨论",
+      "engagement": "中",
+      "platforms": [
+        "Facebook",
+        "Twitter"
+      ]
+    },
+    {
+      "rank": 20,
+      "topic": "Philippine Peso Exchange Rate",
+      "category": "经济",
+      "description": "比索汇率波动、美元兑换",
+      "engagement": "中高",
+      "platforms": [
+        "News",
+        "Facebook"
+      ]
+    }
+  ],
+  "category_breakdown": {
+    "天气": 1,
+    "娱乐": 4,
+    "体育": 2,
+    "国际娱乐": 1,
+    "政治": 3,
+    "历史": 1,
+    "自然灾害": 1,
+    "文化": 1,
+    "社会": 1,
+    "宗教": 1,
+    "教育": 1,
+    "美食": 1,
+    "游戏": 1,
+    "经济": 1
+  },
+  "data_sources": [
+    "Capstone Intel Social Listening",
+    "GMA News",
+    "Inquirer.net",
+    "Manila Times",
+    "Google Trends PH"
+  ]
+}
