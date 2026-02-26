@@ -18,13 +18,12 @@ from pathlib import Path
 from odps import ODPS
 
 
-def query_odps_source_data(days: int = 30, sample_percent: float = 1.0) -> pd.DataFrame:
+def query_odps_source_data(days: int = 30) -> pd.DataFrame:
     """
-    从 ODPS 查询按日期和品类分组的投注数据
+    从 ODPS 查询按日期和品类分组的投注数据 (全量聚合，无需抽样)
     
     Args:
         days: 查询天数 (默认 30 天)
-        sample_percent: 抽样比例 (1.0=100%, 0.1=10%)
     
     Returns:
         DataFrame with columns: pt, ordersourcetype, user_count, bet_count
@@ -37,7 +36,6 @@ def query_odps_source_data(days: int = 30, sample_percent: float = 1.0) -> pd.Da
     
     print(f"连接 ODPS 项目：{project}")
     print(f"查询天数：{days} 天")
-    print(f"抽样比例：{sample_percent*100:.1f}%")
     
     o = ODPS(
         access_id=access_id,
@@ -50,12 +48,7 @@ def query_odps_source_data(days: int = 30, sample_percent: float = 1.0) -> pd.Da
     end_date = datetime.now().strftime('%Y%m%d')
     start_date = (datetime.now() - timedelta(days=days)).strftime('%Y%m%d')
     
-    # 构建 SQL (使用抽样)
-    if sample_percent < 1.0:
-        sample_clause = f"TABLESAMPLE({sample_percent*100:.1f} PERCENT)"
-    else:
-        sample_clause = ""
-    
+    # SQL - 直接聚合查询 (无需抽样，因为 GROUP BY 后数据量很小)
     sql = f"""
     SELECT 
         pt,
@@ -63,7 +56,7 @@ def query_odps_source_data(days: int = 30, sample_percent: float = 1.0) -> pd.Da
         COUNT(DISTINCT login_name) AS user_count,
         CAST(COUNT(*) AS BIGINT) AS bet_count
     FROM 
-        t_order_all {sample_clause}
+        t_order_all
     WHERE 
         pt >= '{start_date}'
         AND pt <= '{end_date}'
@@ -234,13 +227,12 @@ def main():
     
     parser = argparse.ArgumentParser(description='ODPS 投注品类分析')
     parser.add_argument('--days', type=int, default=30, help='查询天数 (默认 30)')
-    parser.add_argument('--sample', type=float, default=1.0, help='抽样比例 (0.01-1.0, 默认 1.0)')
     parser.add_argument('--output', default='reports/betting_odps_analysis', help='输出目录')
     
     args = parser.parse_args()
     
-    # 查询数据
-    df = query_odps_source_data(args.days, args.sample)
+    # 查询数据 (全量聚合)
+    df = query_odps_source_data(args.days)
     
     if df is None or len(df) == 0:
         print("查询失败或无数据")
