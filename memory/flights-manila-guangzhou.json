@@ -1,13 +1,85 @@
 {
   "route": "Manila (MNL) ↔ Guangzhou (CAN)",
   "requirements": {
-    "outbound": "Friday afternoon/evening (MNL → CAN)",
-    "return": "Sunday (CAN → MNL)",
+    "outbound": "Friday afternoon/evening or Saturday morning (MNL → CAN, earlier is better)",
+    "return": "Sunday AFTERNOON/EVENING only (CAN → MNL, after 12:00 PM, later is better)",
     "maxPriceCNY": 2500,
-    "travelPeriod": "Next 8 weeks (weekend trips)"
+    "travelPeriod": "Next 8 weeks (weekend trips)",
+    "optimization": "MAXIMIZE_GUANGZHOU_STAY_TIME"
   },
-  "lastCheck": "2026-02-24T15:10:00Z",
-  "notifiedDeals": [],
+  "filterRules": {
+    "minStayHours": 36,
+    "returnTimeMin": "12:00",
+    "outboundTimeMax": "23:59",
+    "preferredOutbound": "Friday 14:00-23:59 or Saturday 06:00-12:00",
+    "preferredReturn": "Sunday 17:00-23:59"
+  },
+  "lastCheck": "2026-02-26T06:21:31.347216",
+  "notifiedDeals": [
+    {
+      "id": "ceb-weekend-mar-2026",
+      "airline": "Cebu Pacific",
+      "route": "MNL ↔ CAN",
+      "price": "₱9,668 (~1,350 CNY)",
+      "priceCNY": 1350,
+      "outbound": "Friday 11:25 PM",
+      "return": "Sunday 1:40 AM",
+      "type": "Direct",
+      "url": "https://www.cheapflights.com.ph/flights-to-Guangzhou/Manila/",
+      "foundDate": "2026-02-26",
+      "travelPeriod": "March-April 2026 weekends"
+    },
+    {
+      "id": "cs-weekend-mar-2026",
+      "airline": "China Southern",
+      "route": "MNL ↔ CAN",
+      "price": "₱11,346 (~1,580 CNY)",
+      "priceCNY": 1580,
+      "outbound": "Friday 5:45 PM",
+      "return": "Sunday 8:20 AM",
+      "type": "Direct",
+      "url": "https://www.cheapflights.com.ph/flights-to-Guangzhou/Manila/",
+      "foundDate": "2026-02-26",
+      "travelPeriod": "March-April 2026 weekends"
+    },
+    {
+      "id": "gf-best-mar-2026",
+      "airline": "Cebu Pacific / China Southern",
+      "route": "MNL ↔ CAN",
+      "price": "A$197-315 (~930-1,480 CNY)",
+      "priceCNY": 1200,
+      "outbound": "Friday afternoon/evening",
+      "return": "Sunday",
+      "type": "Direct",
+      "url": "https://www.google.com/travel/flights/flights-from-manila-to-guangzhou.html",
+      "foundDate": "2026-02-26",
+      "travelPeriod": "March-May 2026"
+    },
+    {
+      "id": "optimized-20260226-9552",
+      "airline": "Multiple",
+      "route": "MNL ↔ CAN",
+      "price": "¥112.0 CNY",
+      "priceCNY": 112.0,
+      "stay_hours": null,
+      "type": "Optimized (Sunday PM return)",
+      "url": "https://www.kayak.com/flight-routes/Manila-Ninoy-Aquino-Intl-MNL/Guangzhou-Baiyun-CAN",
+      "foundDate": "2026-02-26",
+      "optimization": "MAXIMIZE_GUANGZHOU_STAY_TIME"
+    },
+    {
+      "id": "optimized-20260226-2496",
+      "airline": "Multiple",
+      "route": "MNL ↔ CAN",
+      "price": "¥494.34000000000003 CNY",
+      "priceCNY": 494.34000000000003,
+      "stay_hours": null,
+      "type": "Optimized (Sunday PM return)",
+      "url": "https://www.kayak.com.ph/flight-routes/Manila-Ninoy-Aquino-Intl-MNL/Guangzhou-Baiyun-CAN",
+      "foundDate": "2026-02-26",
+      "optimization": "MAXIMIZE_GUANGZHOU_STAY_TIME"
+    }
+  ],
   "airlines": [
     "Cebu Pacific",
     "China Southern",
@@ -19,5 +91,17 @@
     "https://www.expedia.com/lp/flights/mnl/can/manila-to-guangzhou",
     "https://www.kayak.com/flight-routes/Manila-Ninoy-Aquino-Intl-MNL/Guangzhou-Baiyun-CAN"
   ],
-  "notes": "Cebu Pacific 有直飞航班，每周 4 班。往返低价可至$199 USD (约 1450 CNY)，但需关注周末航班 availability。"
+  "notes": "Cebu Pacific 有直飞航班，每周 4 班 (Tue/Thu/Sat/Sun)。往返低价可至 ~1,350 CNY，远低于 2,500 CNY 目标。3 月是最便宜月份。",
+  "optimizationHistory": [
+    {
+      "date": "2026-02-26T06:19:00Z",
+      "change": "优化为最大化广州停留时间策略",
+      "requirements": {
+        "outbound": "Friday afternoon/evening or Saturday morning",
+        "return": "Sunday AFTERNOON/EVENING only (after 12:00 PM)",
+        "minStayHours": 36,
+        "preferredReturn": "Sunday 17:00-23:59 for maximum stay"
+      }
+    }
+  ]
 }
