@@ -75,29 +75,32 @@ def query_odps_daily_data(project: str, days: int = 30) -> pd.DataFrame:
         endpoint=endpoint
     )
     
-    # 计算日期范围
+    # 计算日期范围 (使用 pt 分区)
     end_date = datetime.now().strftime('%Y%m%d')
     start_date = (datetime.now() - timedelta(days=days)).strftime('%Y%m%d')
     
-    # SQL 查询：统计每天的投注数据
+    # SQL 查询：统计每天的投注数据 (使用 pt 分区)
+    # 注意：billtime 可能是 DATETIME 类型，需要转换
     sql = f"""
     SELECT 
-        dt AS date,
+        pt AS date,
         COUNT(DISTINCT login_name) AS user_count,
         COUNT(*) AS bet_count,
-        SUM(bet_amount) AS total_amount,
-        AVG(bet_amount) AS avg_amount,
+        SUM(CAST(bet_amount AS DOUBLE)) AS total_amount,
+        AVG(CAST(bet_amount AS DOUBLE)) AS avg_amount,
         COUNT(DISTINCT ordersourcetype) AS source_count
     FROM 
         t_order_all
     WHERE 
-        dt >= '{start_date}'
-        AND dt <= '{end_date}'
+        pt >= '{start_date}'
+        AND pt <= '{end_date}'
         AND login_name IS NOT NULL
+        AND bet_amount IS NOT NULL
     GROUP BY 
-        dt
+        pt
     ORDER BY 
-        dt ASC
+        pt ASC
+    LIMIT 10000
     """
     
     print(f"执行 SQL 查询 (最近 {days} 天)...")
