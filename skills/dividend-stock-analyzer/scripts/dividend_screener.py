@@ -364,11 +364,11 @@ def main():
     parser.add_argument('--market', type=str, default='us', choices=['us', 'cn'],
                         help='市场类型：us (美股) 或 cn (A 股)')
     parser.add_argument('--min-yield', type=float, default=3.0,
-                        help='最小股息率 (%)')
+                        help='最小股息率 (百分比)')
     parser.add_argument('--years-stable', type=int, default=10,
                         help='最小连续分红年数')
     parser.add_argument('--max-payout', type=float, default=70.0,
-                        help='最大派息比率 (%)')
+                        help='最大派息比率 (百分比)')
     parser.add_argument('--output', type=str, default='table',
                         choices=['table', 'csv', 'json'],
                         help='输出格式')
